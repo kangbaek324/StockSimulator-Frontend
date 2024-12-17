@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.login-page {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.logo-img {
+  width: 530px;
+  height: 530px;
+  margin-top: 80px;
+}
+
+.login-box {
+  margin-top: 160px;
+  margin-right: 100px;
+  width: 600px;
+  height: 340px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 
+              0px -4px 6px rgba(0, 0, 0, 0.1), 
+              4px 0px 6px rgba(0, 0, 0, 0.1), 
+              -4px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+.login-title > h2{
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.id {
+  width: 500px;
+  height: 45px;
+  margin: 10px auto;
+  margin-top: 15px;
+  display: block;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  border: 1.7px solid #DBDBDB;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 10px;
+  transition: border-color 0.2s ease-in-out;
+  justify-content: center;
+  color: #333333;
+}
+.id::placeholder {
+  color: #999999;
+}
+.id:focus {
+  outline: none;
+  border-color: #acacac;
+}
+.passwd {
+  width: 500px;
+  height: 45px;
+  margin: 15px auto;
+  display: block;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  border: 1.7px solid #DBDBDB;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 10px;
+  transition: border-color 0.2s ease-in-out;
+  justify-content: center;
+  color: #333333;
+}
+.passwd::placeholder {
+  color: #999999;
+}
+.passwd:focus {
+  outline: none;
+  border-color: #acacac;
+}
+.passwd-ck{
+  width: 500px;
+  height: 45px;
+  margin: 15px auto;
+  display: block;
+  background-color: #FAFAFA;
+  border-radius: 5px;
+  border: 1.7px solid #DBDBDB;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 10px;
+  transition: border-color 0.2s ease-in-out;
+  justify-content: center;
+  color: #333333;
+}
+.passwd-ck::placeholder {
+  color: #999999;
+}
+.passwd-ck:focus {
+  outline: none;
+  border-color: #acacac;
+}
+.login-button{
+  border: 0;
+  width: 280px;
+  height: 35px;
+  margin: 10px auto;
+  display: block;
+  background-color: #73c175;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  transition: transform 0.1s ease;
+}
+.login-button:active {
+  transform: scale(0.95); 
+  background-color: #5da960; 
+}
